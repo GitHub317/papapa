@@ -109,6 +109,14 @@
 		FCC652F71F3C35BE0042E545 /* BaseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC652F61F3C35BE0042E545 /* BaseCell.m */; };
 		FCC652FC1F3C4BFB0042E545 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC652FA1F3C4BFB0042E545 /* LoginViewController.m */; };
 		FCC652FD1F3C4BFB0042E545 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCC652FB1F3C4BFB0042E545 /* LoginViewController.xib */; };
+		FCC653031F3C58970042E545 /* RongContactCard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCC653021F3C58970042E545 /* RongContactCard.framework */; };
+		FCC6530C1F3C5A330042E545 /* ChatBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC653051F3C5A330042E545 /* ChatBaseModel.m */; };
+		FCC6530D1F3C5A330042E545 /* RongCloudManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC653071F3C5A330042E545 /* RongCloudManager.m */; };
+		FCC6530E1F3C5A330042E545 /* RongCloundUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC653091F3C5A330042E545 /* RongCloundUtils.m */; };
+		FCC6530F1F3C5A330042E545 /* UIImageTools.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC6530B1F3C5A330042E545 /* UIImageTools.m */; };
+		FCC653131F3C5AAC0042E545 /* UserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC653121F3C5AAC0042E545 /* UserInfo.m */; };
+		FCC653161F3C5B1F0042E545 /* UserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC653151F3C5B1F0042E545 /* UserModel.m */; };
+		FCC653191F3C5B750042E545 /* NSString+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC653181F3C5B750042E545 /* NSString+Utils.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -318,6 +326,21 @@
 		FCC652F91F3C4BFB0042E545 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
 		FCC652FA1F3C4BFB0042E545 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		FCC652FB1F3C4BFB0042E545 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		FCC653021F3C58970042E545 /* RongContactCard.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RongContactCard.framework; sourceTree = "<group>"; };
+		FCC653041F3C5A330042E545 /* ChatBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatBaseModel.h; sourceTree = "<group>"; };
+		FCC653051F3C5A330042E545 /* ChatBaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatBaseModel.m; sourceTree = "<group>"; };
+		FCC653061F3C5A330042E545 /* RongCloudManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RongCloudManager.h; sourceTree = "<group>"; };
+		FCC653071F3C5A330042E545 /* RongCloudManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RongCloudManager.m; sourceTree = "<group>"; };
+		FCC653081F3C5A330042E545 /* RongCloundUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RongCloundUtils.h; sourceTree = "<group>"; };
+		FCC653091F3C5A330042E545 /* RongCloundUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RongCloundUtils.m; sourceTree = "<group>"; };
+		FCC6530A1F3C5A330042E545 /* UIImageTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIImageTools.h; sourceTree = "<group>"; };
+		FCC6530B1F3C5A330042E545 /* UIImageTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIImageTools.m; sourceTree = "<group>"; };
+		FCC653111F3C5AAC0042E545 /* UserInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInfo.h; sourceTree = "<group>"; };
+		FCC653121F3C5AAC0042E545 /* UserInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInfo.m; sourceTree = "<group>"; };
+		FCC653141F3C5B1F0042E545 /* UserModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserModel.h; sourceTree = "<group>"; };
+		FCC653151F3C5B1F0042E545 /* UserModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserModel.m; sourceTree = "<group>"; };
+		FCC653171F3C5B750042E545 /* NSString+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Utils.h"; sourceTree = "<group>"; };
+		FCC653181F3C5B750042E545 /* NSString+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Utils.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -326,6 +349,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8561394AF952388EA8E09F80 /* libPods-papapa.a in Frameworks */,
+				FCC653031F3C58970042E545 /* RongContactCard.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -383,6 +407,7 @@
 		FC24FDCC1F3ABF5D00CDEAE1 /* libs */ = {
 			isa = PBXGroup;
 			children = (
+				FCC653011F3C58970042E545 /* RongCloud */,
 				FC24FDCD1F3ABF5D00CDEAE1 /* IQKeyboardManager */,
 				FC24FDF21F3ABF5D00CDEAE1 /* KJImagePickerController */,
 				FC24FDF71F3ABF5D00CDEAE1 /* Konggeek */,
@@ -999,6 +1024,7 @@
 		FCC652DF1F3C346D0042E545 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				FCC653101F3C5AAC0042E545 /* UserModel */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -1013,6 +1039,8 @@
 		FCC652EA1F3C35100042E545 /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				FCC653171F3C5B750042E545 /* NSString+Utils.h */,
+				FCC653181F3C5B750042E545 /* NSString+Utils.m */,
 				FCC652F11F3C356D0042E545 /* UIView+BottomLine.h */,
 				FCC652F21F3C356D0042E545 /* UIView+BottomLine.m */,
 				FCC652EB1F3C35100042E545 /* UIView+RefreshLayout.h */,
@@ -1038,6 +1066,33 @@
 				FCC652FB1F3C4BFB0042E545 /* LoginViewController.xib */,
 			);
 			path = LoginRegist;
+			sourceTree = "<group>";
+		};
+		FCC653011F3C58970042E545 /* RongCloud */ = {
+			isa = PBXGroup;
+			children = (
+				FCC653041F3C5A330042E545 /* ChatBaseModel.h */,
+				FCC653051F3C5A330042E545 /* ChatBaseModel.m */,
+				FCC653061F3C5A330042E545 /* RongCloudManager.h */,
+				FCC653071F3C5A330042E545 /* RongCloudManager.m */,
+				FCC653081F3C5A330042E545 /* RongCloundUtils.h */,
+				FCC653091F3C5A330042E545 /* RongCloundUtils.m */,
+				FCC6530A1F3C5A330042E545 /* UIImageTools.h */,
+				FCC6530B1F3C5A330042E545 /* UIImageTools.m */,
+				FCC653021F3C58970042E545 /* RongContactCard.framework */,
+			);
+			path = RongCloud;
+			sourceTree = "<group>";
+		};
+		FCC653101F3C5AAC0042E545 /* UserModel */ = {
+			isa = PBXGroup;
+			children = (
+				FCC653141F3C5B1F0042E545 /* UserModel.h */,
+				FCC653151F3C5B1F0042E545 /* UserModel.m */,
+				FCC653111F3C5AAC0042E545 /* UserInfo.h */,
+				FCC653121F3C5AAC0042E545 /* UserInfo.m */,
+			);
+			path = UserModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1177,6 +1232,7 @@
 				FC24FEBF1F3ABF5D00CDEAE1 /* UIView+Category.m in Sources */,
 				FC24FEDC1F3ABF5D00CDEAE1 /* PHTabbarView.m in Sources */,
 				FC24FEA61F3ABF5D00CDEAE1 /* IQKeyboardManager.m in Sources */,
+				FCC653161F3C5B1F0042E545 /* UserModel.m in Sources */,
 				FC24FEA81F3ABF5D00CDEAE1 /* IQTextView.m in Sources */,
 				FC24FEA21F3ABF5D00CDEAE1 /* IQUITextFieldView+Additions.m in Sources */,
 				FCC652ED1F3C35100042E545 /* UIView+RefreshLayout.m in Sources */,
@@ -1190,6 +1246,7 @@
 				FC24FEE91F3ABF5D00CDEAE1 /* UIColor+PHCate.m in Sources */,
 				FC24FEE31F3ABF5D00CDEAE1 /* PHVideoGroupViewController.m in Sources */,
 				FC24FEE51F3ABF5D00CDEAE1 /* PHScanningNavigationView.m in Sources */,
+				FCC6530D1F3C5A330042E545 /* RongCloudManager.m in Sources */,
 				FC24FEAC1F3ABF5D00CDEAE1 /* IQToolbar.m in Sources */,
 				FC24FEDF1F3ABF5D00CDEAE1 /* PHGroupViewController.m in Sources */,
 				FC24FEE11F3ABF5D00CDEAE1 /* KJAssetCollection.m in Sources */,
@@ -1217,10 +1274,13 @@
 				FC24FEE01F3ABF5D00CDEAE1 /* KJAsset.m in Sources */,
 				FC24FEA91F3ABF5D00CDEAE1 /* IQBarButtonItem.m in Sources */,
 				FC24FEEB1F3ABF5D00CDEAE1 /* RSKImageCropViewController.m in Sources */,
+				FCC6530C1F3C5A330042E545 /* ChatBaseModel.m in Sources */,
+				FCC6530E1F3C5A330042E545 /* RongCloundUtils.m in Sources */,
 				FC24FECB1F3ABF5D00CDEAE1 /* TestViewController.m in Sources */,
 				FC24FEB31F3ABF5D00CDEAE1 /* RequestMessage.m in Sources */,
 				FCC652D41F3C33BF0042E545 /* BaseViewController.m in Sources */,
 				FC24FEA11F3ABF5D00CDEAE1 /* IQUIScrollView+Additions.m in Sources */,
+				FCC6530F1F3C5A330042E545 /* UIImageTools.m in Sources */,
 				FC24FEED1F3ABF5D00CDEAE1 /* RSKTouchView.m in Sources */,
 				FC24FECE1F3ABF5D00CDEAE1 /* KJOSSManager.m in Sources */,
 				FC24FEC81F3ABF5D00CDEAE1 /* KJPhotoGroupModel.m in Sources */,
@@ -1230,9 +1290,11 @@
 				FC24FEB61F3ABF5D00CDEAE1 /* NSString+Category.m in Sources */,
 				FC24FEE41F3ABF5D00CDEAE1 /* PHScanningCollectionViewCell.m in Sources */,
 				FC24FEEF1F3ABF5D00CDEAE1 /* UUIDUtil.m in Sources */,
+				FCC653191F3C5B750042E545 /* NSString+Utils.m in Sources */,
 				FC24FEF41F3ABF5D00CDEAE1 /* NSString+JSONCategories.m in Sources */,
 				FC24FEBC1F3ABF5D00CDEAE1 /* UILabel+TextColor.m in Sources */,
 				FC24FECF1F3ABF5D00CDEAE1 /* MBProgressHUDUtil.m in Sources */,
+				FCC653131F3C5AAC0042E545 /* UserInfo.m in Sources */,
 				FC24FEC51F3ABF5D00CDEAE1 /* KJPhotoDataTool.m in Sources */,
 				FC24FEE71F3ABF5D00CDEAE1 /* PHTool.m in Sources */,
 				FC24FECA1F3ABF5D00CDEAE1 /* KJPhotoKitUtil.m in Sources */,
@@ -1374,6 +1436,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = W335NUPQPJ;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/papapa/libs/RongCloud",
+				);
 				GCC_PREFIX_HEADER = "$(SRCROOT)/papapa/PrefixHeader.pch";
 				INFOPLIST_FILE = papapa/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -1390,6 +1456,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = W335NUPQPJ;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/papapa/libs/RongCloud",
+				);
 				GCC_PREFIX_HEADER = "$(SRCROOT)/papapa/PrefixHeader.pch";
 				INFOPLIST_FILE = papapa/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

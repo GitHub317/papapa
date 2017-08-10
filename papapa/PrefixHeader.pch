@@ -22,10 +22,18 @@
 #import "IQKeyboardManager.h"
 #import "BaseViewController.h"
 #import "UIView+RefreshLayout.h"
+#import <RongIMKit/RongIMKit.h>
+#import <RongContactCard/RongContactCard.h>
+#import "RongCloudManager.h"
 
 //此项目
 #import "AppDelegate+RootViewController.h"
 #import "BaseCell.h"
 #import "HLTextView.h"
+#import "RongCloundUtils.h"
+#import "UserInfo.h"
+#import "UserModel.h"
+
+
 
 #endif /* PrefixHeader_pch */

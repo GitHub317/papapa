@@ -42,4 +42,33 @@
  */
 #define RONGYUN_USEINFO  [RCIM sharedRCIM].userInfoDataSource
 
+#define RONGYUN_TOKEN           @"rongyunToken"  //连接融云所用的token
+
+#define RONGYUN_TOKEN_TEST101           @""  //ID 为101 的测试连接融云所用的token
+#define RONGYUN_TOKEN_TEST102           @""  //ID 为102 的测试连接融云所用的token
+#define CHATROOM_ID             @"chatRoomId"  //融云聊天室id
+
+#define FRIEND_LIST                 @"friendList"//用来区分索引   ，好友列表
+#define SEVER_LIST                 @"severUser"//用来区分索引   ，手机联系人蚂蚁账户列表
+#define ROOT_PHONE                  @"0571-83688888"
+
+/**
+ *  融云信息
+ */
+#define RONGYUN_USEINFO  [RCIM sharedRCIM].userInfoDataSource
+
+#define CHANGE_CHATROOMID                    @"change_chatRoomId"    //地区更改后，发送通知更改聊天室
+
+#define EXIT_GROUP_NOTIFICATION              @"exitGroup"            //退出群组发送通知
+
+# define SINGLE_CLEAR_NOTIFICATION           @"ClearSingleHistoryMsg" //清除单聊历史信息
+
+# define GROUP_CLEAR_NOTIFICATION           @"ClearGroupHistoryMsg" //清除群聊历史信息
+
+# define CHATROOM_CLEAR_NOTIFICATION        @"ClearChatRoomHistoryMsg" //清除聊天室历史信息
+
+# define CLEAR_NOTIFICATION                 @"ClearHistoryMsg" //清除历史信息
+
+#define ALI_ROOT_URL        @"http://antscy-video.oss-cn-shanghai.aliyuncs.com"
+
 #endif /* ConstantHeader_h */

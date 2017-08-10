@@ -19,6 +19,9 @@ PODS:
   - MBProgressHUD (0.9.2)
   - MJExtension (3.0.13)
   - MJRefresh (3.1.12)
+  - RongCloudIM/IMKit (2.8.14):
+    - RongCloudIM/IMLib
+  - RongCloudIM/IMLib (2.8.14)
   - SDWebImage (3.7.6):
     - SDWebImage/Core (= 3.7.6)
   - SDWebImage/Core (3.7.6)
@@ -31,6 +34,7 @@ DEPENDENCIES:
   - MBProgressHUD (~> 0.9.2)
   - MJExtension (~> 3.0.10)
   - MJRefresh (~> 3.1.12)
+  - RongCloudIM/IMKit (~> 2.8.14)
   - SDWebImage (~> 3.7.3)
   - WechatOpenSDK
 
@@ -41,9 +45,10 @@ SPEC CHECKSUMS:
   MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
   MJExtension: 5932755f451458eefa24239358817f8d291240c7
   MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
+  RongCloudIM: 04334f9285db8bc5e2f69bda0e3ce5431a6bec72
   SDWebImage: c325cf02c30337336b95beff20a13df489ec0ec9
   WechatOpenSDK: ad1e7be1b66416df847ac50830c798b70c9e365e
 
-PODFILE CHECKSUM: 5269b2146025ef8ce45d0bbbdb1d70e00793995d
+PODFILE CHECKSUM: cd4fef8fc9766f35f7068056d55fe7b33881bc5d
 
 COCOAPODS: 1.1.1

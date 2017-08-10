@@ -10,5 +10,5 @@ pod 'MJExtension', '~> 3.0.10'
 pod 'MJRefresh', '~> 3.1.12'
 pod 'Masonry', '~> 1.0.1'
 pod 'WechatOpenSDK'
-
+pod 'RongCloudIM/IMKit', '~> 2.8.14' 
 end

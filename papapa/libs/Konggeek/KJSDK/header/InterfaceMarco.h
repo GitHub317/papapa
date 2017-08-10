@@ -14,12 +14,14 @@
 #define ROOT_URL_IMG                    @"http://img-oss.yidexuepin.com"
 
 ////开发环境
-//#define ROOT_URL                  @"http://api.xuepin.logthin.com"
-//#define ROOT_URL_SHARE            @"http://h5.xueping.logthin.com"
+#define ROOT_URL                  @"http://api.xuepin.logthin.com"
+#define ROOT_URL_SHARE            @"http://h5.xueping.logthin.com"
 
 //正式环境
-#define ROOT_URL                  @"https://api.yidexuepin.com"
-#define ROOT_URL_SHARE            @"https://h5.yidexuepin.com"
+//#define ROOT_URL                  @"https://api.yidexuepin.com"
+//#define ROOT_URL_SHARE            @"https://h5.yidexuepin.com"
+
+#define RONGCLOUND_APPKEY           @"4z3hlwrv4bxvt"
 
 
 #endif /* InterfaceMarco_h */
