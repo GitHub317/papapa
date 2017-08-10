@@ -99,6 +99,16 @@
 		FC747DB71F3AB6D800A15621 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC747DB61F3AB6D800A15621 /* AppDelegate.m */; };
 		FC747DBF1F3AB6D800A15621 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC747DBE1F3AB6D800A15621 /* Assets.xcassets */; };
 		FC747DC21F3AB6D800A15621 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC747DC01F3AB6D800A15621 /* LaunchScreen.storyboard */; };
+		FCC652D41F3C33BF0042E545 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC652D31F3C33BF0042E545 /* BaseViewController.m */; };
+		FCC652E31F3C347F0042E545 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC652E21F3C347F0042E545 /* HomeViewController.m */; };
+		FCC652E61F3C34940042E545 /* MessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC652E51F3C34940042E545 /* MessageViewController.m */; };
+		FCC652E91F3C349C0042E545 /* PersonalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC652E81F3C349C0042E545 /* PersonalViewController.m */; };
+		FCC652ED1F3C35100042E545 /* UIView+RefreshLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC652EC1F3C35100042E545 /* UIView+RefreshLayout.m */; };
+		FCC652F01F3C355D0042E545 /* AppDelegate+RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC652EF1F3C355D0042E545 /* AppDelegate+RootViewController.m */; };
+		FCC652F31F3C356D0042E545 /* UIView+BottomLine.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC652F21F3C356D0042E545 /* UIView+BottomLine.m */; };
+		FCC652F71F3C35BE0042E545 /* BaseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC652F61F3C35BE0042E545 /* BaseCell.m */; };
+		FCC652FC1F3C4BFB0042E545 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC652FA1F3C4BFB0042E545 /* LoginViewController.m */; };
+		FCC652FD1F3C4BFB0042E545 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCC652FB1F3C4BFB0042E545 /* LoginViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -288,6 +298,26 @@
 		FC747DBE1F3AB6D800A15621 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FC747DC11F3AB6D800A15621 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FC747DC31F3AB6D800A15621 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCC652CF1F3C32B00042E545 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		FCC652D21F3C33BF0042E545 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		FCC652D31F3C33BF0042E545 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		FCC652E11F3C347F0042E545 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		FCC652E21F3C347F0042E545 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		FCC652E41F3C34940042E545 /* MessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageViewController.h; sourceTree = "<group>"; };
+		FCC652E51F3C34940042E545 /* MessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageViewController.m; sourceTree = "<group>"; };
+		FCC652E71F3C349C0042E545 /* PersonalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonalViewController.h; sourceTree = "<group>"; };
+		FCC652E81F3C349C0042E545 /* PersonalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonalViewController.m; sourceTree = "<group>"; };
+		FCC652EB1F3C35100042E545 /* UIView+RefreshLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+RefreshLayout.h"; sourceTree = "<group>"; };
+		FCC652EC1F3C35100042E545 /* UIView+RefreshLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+RefreshLayout.m"; sourceTree = "<group>"; };
+		FCC652EE1F3C355D0042E545 /* AppDelegate+RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+RootViewController.h"; sourceTree = "<group>"; };
+		FCC652EF1F3C355D0042E545 /* AppDelegate+RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+RootViewController.m"; sourceTree = "<group>"; };
+		FCC652F11F3C356D0042E545 /* UIView+BottomLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+BottomLine.h"; sourceTree = "<group>"; };
+		FCC652F21F3C356D0042E545 /* UIView+BottomLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+BottomLine.m"; sourceTree = "<group>"; };
+		FCC652F51F3C35BE0042E545 /* BaseCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseCell.h; sourceTree = "<group>"; };
+		FCC652F61F3C35BE0042E545 /* BaseCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseCell.m; sourceTree = "<group>"; };
+		FCC652F91F3C4BFB0042E545 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		FCC652FA1F3C4BFB0042E545 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		FCC652FB1F3C4BFB0042E545 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -754,6 +784,7 @@
 		FC24FE8C1F3ABF5D00CDEAE1 /* util */ = {
 			isa = PBXGroup;
 			children = (
+				FCC652EA1F3C35100042E545 /* Category */,
 				FC24FE8D1F3ABF5D00CDEAE1 /* AppdelegateCategory */,
 				FC24FE901F3ABF5D00CDEAE1 /* BaseCell */,
 				FC24FE951F3ABF5D00CDEAE1 /* CustomView */,
@@ -766,6 +797,8 @@
 		FC24FE8D1F3ABF5D00CDEAE1 /* AppdelegateCategory */ = {
 			isa = PBXGroup;
 			children = (
+				FCC652EE1F3C355D0042E545 /* AppDelegate+RootViewController.h */,
+				FCC652EF1F3C355D0042E545 /* AppDelegate+RootViewController.m */,
 				FC24FE8E1F3ABF5D00CDEAE1 /* AppDelegate+Notification.h */,
 				FC24FE8F1F3ABF5D00CDEAE1 /* AppDelegate+Notification.m */,
 			);
@@ -836,8 +869,10 @@
 				FC24FDC81F3ABF5D00CDEAE1 /* assets */,
 				FC24FDCC1F3ABF5D00CDEAE1 /* libs */,
 				FC24FE8C1F3ABF5D00CDEAE1 /* util */,
+				FCC652D01F3C33B10042E545 /* Project */,
 				FC747DB51F3AB6D800A15621 /* AppDelegate.h */,
 				FC747DB61F3AB6D800A15621 /* AppDelegate.m */,
+				FCC652CF1F3C32B00042E545 /* PrefixHeader.pch */,
 				FC747DBE1F3AB6D800A15621 /* Assets.xcassets */,
 				FC747DC01F3AB6D800A15621 /* LaunchScreen.storyboard */,
 				FC747DC31F3AB6D800A15621 /* Info.plist */,
@@ -852,6 +887,157 @@
 				FC747DB31F3AB6D800A15621 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FCC652D01F3C33B10042E545 /* Project */ = {
+			isa = PBXGroup;
+			children = (
+				FCC652F81F3C4BF20042E545 /* LoginRegist */,
+				FCC652D51F3C341B0042E545 /* Personal */,
+				FCC652D61F3C341B0042E545 /* Message */,
+				FCC652D71F3C341B0042E545 /* Home */,
+				FCC652D11F3C33BF0042E545 /* BaseViewController */,
+			);
+			path = Project;
+			sourceTree = "<group>";
+		};
+		FCC652D11F3C33BF0042E545 /* BaseViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FCC652F41F3C35BE0042E545 /* BaseView */,
+				FCC652D21F3C33BF0042E545 /* BaseViewController.h */,
+				FCC652D31F3C33BF0042E545 /* BaseViewController.m */,
+			);
+			path = BaseViewController;
+			sourceTree = "<group>";
+		};
+		FCC652D51F3C341B0042E545 /* Personal */ = {
+			isa = PBXGroup;
+			children = (
+				FCC652DE1F3C346D0042E545 /* Controller */,
+				FCC652DF1F3C346D0042E545 /* Model */,
+				FCC652E01F3C346D0042E545 /* View */,
+			);
+			path = Personal;
+			sourceTree = "<group>";
+		};
+		FCC652D61F3C341B0042E545 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				FCC652DB1F3C34630042E545 /* Controller */,
+				FCC652DC1F3C34630042E545 /* Model */,
+				FCC652DD1F3C34630042E545 /* View */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		FCC652D71F3C341B0042E545 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				FCC652D81F3C34510042E545 /* View */,
+				FCC652D91F3C34510042E545 /* Model */,
+				FCC652DA1F3C34510042E545 /* Controller */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		FCC652D81F3C34510042E545 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FCC652D91F3C34510042E545 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FCC652DA1F3C34510042E545 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FCC652E11F3C347F0042E545 /* HomeViewController.h */,
+				FCC652E21F3C347F0042E545 /* HomeViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FCC652DB1F3C34630042E545 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FCC652E41F3C34940042E545 /* MessageViewController.h */,
+				FCC652E51F3C34940042E545 /* MessageViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FCC652DC1F3C34630042E545 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FCC652DD1F3C34630042E545 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FCC652DE1F3C346D0042E545 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FCC652E71F3C349C0042E545 /* PersonalViewController.h */,
+				FCC652E81F3C349C0042E545 /* PersonalViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FCC652DF1F3C346D0042E545 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FCC652E01F3C346D0042E545 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FCC652EA1F3C35100042E545 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				FCC652F11F3C356D0042E545 /* UIView+BottomLine.h */,
+				FCC652F21F3C356D0042E545 /* UIView+BottomLine.m */,
+				FCC652EB1F3C35100042E545 /* UIView+RefreshLayout.h */,
+				FCC652EC1F3C35100042E545 /* UIView+RefreshLayout.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		FCC652F41F3C35BE0042E545 /* BaseView */ = {
+			isa = PBXGroup;
+			children = (
+				FCC652F51F3C35BE0042E545 /* BaseCell.h */,
+				FCC652F61F3C35BE0042E545 /* BaseCell.m */,
+			);
+			path = BaseView;
+			sourceTree = "<group>";
+		};
+		FCC652F81F3C4BF20042E545 /* LoginRegist */ = {
+			isa = PBXGroup;
+			children = (
+				FCC652F91F3C4BFB0042E545 /* LoginViewController.h */,
+				FCC652FA1F3C4BFB0042E545 /* LoginViewController.m */,
+				FCC652FB1F3C4BFB0042E545 /* LoginViewController.xib */,
+			);
+			path = LoginRegist;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -925,6 +1111,7 @@
 				FC24FED41F3ABF5D00CDEAE1 /* ic_PH_default.png in Resources */,
 				FC24FEAE1F3ABF5D00CDEAE1 /* IQKeyboardManager.bundle in Resources */,
 				FC24FED61F3ABF5D00CDEAE1 /* ic_selected@3x.png in Resources */,
+				FCC652FD1F3C4BFB0042E545 /* LoginViewController.xib in Resources */,
 				FC24FED01F3ABF5D00CDEAE1 /* ic_camera@2x.png in Resources */,
 				FC24FED31F3ABF5D00CDEAE1 /* ic_login_back@3x.png in Resources */,
 				FC24FED21F3ABF5D00CDEAE1 /* ic_login_back@2x.png in Resources */,
@@ -992,6 +1179,7 @@
 				FC24FEA61F3ABF5D00CDEAE1 /* IQKeyboardManager.m in Sources */,
 				FC24FEA81F3ABF5D00CDEAE1 /* IQTextView.m in Sources */,
 				FC24FEA21F3ABF5D00CDEAE1 /* IQUITextFieldView+Additions.m in Sources */,
+				FCC652ED1F3C35100042E545 /* UIView+RefreshLayout.m in Sources */,
 				FC24FEB21F3ABF5D00CDEAE1 /* RequestEngine.m in Sources */,
 				FC24FEF01F3ABF5D00CDEAE1 /* AppDelegate+Notification.m in Sources */,
 				FC24FEB41F3ABF5D00CDEAE1 /* ResponseMessage.m in Sources */,
@@ -1009,6 +1197,7 @@
 				FC24FEBA1F3ABF5D00CDEAE1 /* UILabel+AutoSize.m in Sources */,
 				FC24FEA71F3ABF5D00CDEAE1 /* IQKeyboardReturnKeyHandler.m in Sources */,
 				FC24FEC41F3ABF5D00CDEAE1 /* KJPhotoCollectionViewCell.m in Sources */,
+				FCC652E31F3C347F0042E545 /* HomeViewController.m in Sources */,
 				FC24FEF61F3ABF5D00CDEAE1 /* KJStringUtils.m in Sources */,
 				FC24FEC21F3ABF5D00CDEAE1 /* ImageDisplayViewController.m in Sources */,
 				FC24FEA01F3ABF5D00CDEAE1 /* IQNSArray+Sort.m in Sources */,
@@ -1019,7 +1208,10 @@
 				FC24FEB01F3ABF5D00CDEAE1 /* KJImagePickerController.m in Sources */,
 				FC24FECD1F3ABF5D00CDEAE1 /* KJCommonUI.m in Sources */,
 				FC24FEDD1F3ABF5D00CDEAE1 /* PHData.m in Sources */,
+				FCC652F01F3C355D0042E545 /* AppDelegate+RootViewController.m in Sources */,
 				FC24FEBB1F3ABF5D00CDEAE1 /* UILabel+Suitable.m in Sources */,
+				FCC652F31F3C356D0042E545 /* UIView+BottomLine.m in Sources */,
+				FCC652F71F3C35BE0042E545 /* BaseCell.m in Sources */,
 				FC24FEF11F3ABF5D00CDEAE1 /* BaseView.m in Sources */,
 				FC24FEA51F3ABF5D00CDEAE1 /* IQUIWindow+Hierarchy.m in Sources */,
 				FC24FEE01F3ABF5D00CDEAE1 /* KJAsset.m in Sources */,
@@ -1027,6 +1219,7 @@
 				FC24FEEB1F3ABF5D00CDEAE1 /* RSKImageCropViewController.m in Sources */,
 				FC24FECB1F3ABF5D00CDEAE1 /* TestViewController.m in Sources */,
 				FC24FEB31F3ABF5D00CDEAE1 /* RequestMessage.m in Sources */,
+				FCC652D41F3C33BF0042E545 /* BaseViewController.m in Sources */,
 				FC24FEA11F3ABF5D00CDEAE1 /* IQUIScrollView+Additions.m in Sources */,
 				FC24FEED1F3ABF5D00CDEAE1 /* RSKTouchView.m in Sources */,
 				FC24FECE1F3ABF5D00CDEAE1 /* KJOSSManager.m in Sources */,
@@ -1044,6 +1237,8 @@
 				FC24FEE71F3ABF5D00CDEAE1 /* PHTool.m in Sources */,
 				FC24FECA1F3ABF5D00CDEAE1 /* KJPhotoKitUtil.m in Sources */,
 				FC24FEEC1F3ABF5D00CDEAE1 /* RSKImageScrollView.m in Sources */,
+				FCC652FC1F3C4BFB0042E545 /* LoginViewController.m in Sources */,
+				FCC652E91F3C349C0042E545 /* PersonalViewController.m in Sources */,
 				FC24FEAB1F3ABF5D00CDEAE1 /* IQTitleBarButtonItem.m in Sources */,
 				FC24FEDE1F3ABF5D00CDEAE1 /* PHGroupTableViewCell.m in Sources */,
 				FC24FEF21F3ABF5D00CDEAE1 /* HLBaseCell.m in Sources */,
@@ -1064,6 +1259,7 @@
 				FC24FEE61F3ABF5D00CDEAE1 /* PHScanningViewController.m in Sources */,
 				FC24FEA31F3ABF5D00CDEAE1 /* IQUIView+Hierarchy.m in Sources */,
 				FC24FED91F3ABF5D00CDEAE1 /* CameraCollectionViewCell.m in Sources */,
+				FCC652E61F3C34940042E545 /* MessageViewController.m in Sources */,
 				FC24FEE81F3ABF5D00CDEAE1 /* HUDManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1178,11 +1374,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = W335NUPQPJ;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/papapa/PrefixHeader.pch";
 				INFOPLIST_FILE = papapa/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.papapa;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "d5ac0bc1-a6ac-4b21-891d-6b79fd02c1db";
+				PROVISIONING_PROFILE = "a6fbd209-e9f3-4506-a8a2-32c111405f55";
 				PROVISIONING_PROFILE_SPECIFIER = ALL_Dev;
 			};
 			name = Debug;
@@ -1193,6 +1390,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = W335NUPQPJ;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/papapa/PrefixHeader.pch";
 				INFOPLIST_FILE = papapa/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.papapa;

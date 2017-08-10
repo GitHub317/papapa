@@ -14,4 +14,5 @@
 - (void)barButtonItemImageName:(NSString *)imageName position:(NSString *)position;
 - (void)barImageTap:(UITapGestureRecognizer *)tap;
 - (void)barButtonItemTitle:(NSString *)itemTitle;
+-(void)setNavBackgroundImage:(UIImage *)image;
 @end

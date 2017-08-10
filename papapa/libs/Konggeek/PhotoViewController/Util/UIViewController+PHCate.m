@@ -77,4 +77,7 @@
 - (void)btnClickBar:(UIButton *)button {
     [self dismissViewControllerAnimated:YES completion:nil];
 }
+-(void)setNavBackgroundImage:(UIImage *)image{
+    [self.navigationController.navigationBar setBackgroundImage:image forBarMetrics:UIBarMetricsDefault];
+}
 @end

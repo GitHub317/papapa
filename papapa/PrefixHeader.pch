@@ -1,0 +1,31 @@
+//
+//  PrefixHeader.pch
+//  papapa
+//
+//  Created by 二师兄 on 2017/8/10.
+//  Copyright © 2017年 Ershixiong. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+//通用
+#import "KJSDKHeader.h"
+#import "AppDelegate+Notification.h"
+#import <UIImageView+WebCache.h>
+#import <MJExtension.h>
+#import "MJRefresh.h"
+#import "RSKImageCropper.h"
+#import <UIKit/UIKit.h>
+#import <Masonry.h>
+#import <UIButton+WebCache.h>
+#import "IQKeyboardManager.h"
+#import "BaseViewController.h"
+#import "UIView+RefreshLayout.h"
+
+//此项目
+#import "AppDelegate+RootViewController.h"
+#import "BaseCell.h"
+#import "HLTextView.h"
+
+#endif /* PrefixHeader_pch */

@@ -8,7 +8,7 @@
 
 #ifndef ConstantHeader_h
 #define ConstantHeader_h
-#define COLOR_COMMON            @"da2d27"
+#define COLOR_COMMON            @"e94780"
 #define COLOR_LINE              @"e5e5e5"
 #define COLOR_BACKGROUND        @"f7f7f7"
 #define COLOR_CELL_BACKGROUND   @"403f46"

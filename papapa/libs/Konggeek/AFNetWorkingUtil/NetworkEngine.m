@@ -10,7 +10,6 @@
 #import <AFHTTPSessionManager.h>
 #import "AppDelegate.h"
 #import "InterfaceMarco.h"
-#import "LoginViewController.h"
 #define TIME_OUT 5 //请求超时时间
 
 @implementation NetworkEngine
@@ -97,15 +96,15 @@
     if ([responseObject[@"retCode"] isEqualToString:@"10002"]) {
         [KJCommonMethods removeValueForkey:@"accessToken"];
         [KJCommonMethods saveValue:[NSNumber numberWithBool:NO] key:IS_LOGIN];
-        [UserInfo removeUserInfo];
+
         UITabBarController * tabbrVC = (UITabBarController *)[UIApplication sharedApplication].delegate.window.rootViewController;
         if (tabbrVC.selectedIndex == 2) {
             UINavigationController *nav = tabbrVC.viewControllers[2];
             [nav popToRootViewControllerAnimated:YES];
         }
-        [(AppDelegate *)[UIApplication sharedApplication].delegate presentNewNavigationControllerWithClass:[LoginViewController class] Animation:YES block:^{
-            //
-        }];
+//        [(AppDelegate *)[UIApplication sharedApplication].delegate presentNewNavigationControllerWithClass:[LoginViewController class] Animation:YES block:^{
+//            //
+//        }];
     }
     
     responseMessage.responseString=[NSString stringWithFormat:@"%@",operation.response];
