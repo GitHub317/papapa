@@ -117,6 +117,16 @@
 		FCC653131F3C5AAC0042E545 /* UserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC653121F3C5AAC0042E545 /* UserInfo.m */; };
 		FCC653161F3C5B1F0042E545 /* UserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC653151F3C5B1F0042E545 /* UserModel.m */; };
 		FCC653191F3C5B750042E545 /* NSString+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC653181F3C5B750042E545 /* NSString+Utils.m */; };
+		FCFA65AB1F3D51C700C63934 /* ChatListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFA65AA1F3D51C700C63934 /* ChatListCell.m */; };
+		FCFA65AF1F3D54E400C63934 /* BaseChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFA65AE1F3D54E400C63934 /* BaseChatViewController.m */; };
+		FCFA65B41F3D557D00C63934 /* FriendInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFA65B21F3D557D00C63934 /* FriendInfoViewController.m */; };
+		FCFA65B51F3D557D00C63934 /* FriendInfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCFA65B31F3D557D00C63934 /* FriendInfoViewController.xib */; };
+		FCFA65BB1F3DAA0400C63934 /* PaPaPaHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = FCFA65B91F3DA9E100C63934 /* PaPaPaHeader.h */; };
+		FCFA65BF1F3DAC6600C63934 /* PersonalPageInfoView.h in Headers */ = {isa = PBXBuildFile; fileRef = FCFA65BD1F3DAC6600C63934 /* PersonalPageInfoView.h */; };
+		FCFA65C01F3DAC6600C63934 /* PersonalPageInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFA65BE1F3DAC6600C63934 /* PersonalPageInfoView.m */; };
+		FCFA65C21F3DAC6E00C63934 /* PersonalPageInfoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCFA65C11F3DAC6E00C63934 /* PersonalPageInfoView.xib */; };
+		FCFA65C51F3DBED500C63934 /* PersonalTableHeadView.h in Headers */ = {isa = PBXBuildFile; fileRef = FCFA65C31F3DBED500C63934 /* PersonalTableHeadView.h */; };
+		FCFA65C61F3DBED500C63934 /* PersonalTableHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFA65C41F3DBED500C63934 /* PersonalTableHeadView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -341,6 +351,19 @@
 		FCC653151F3C5B1F0042E545 /* UserModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserModel.m; sourceTree = "<group>"; };
 		FCC653171F3C5B750042E545 /* NSString+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Utils.h"; sourceTree = "<group>"; };
 		FCC653181F3C5B750042E545 /* NSString+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Utils.m"; sourceTree = "<group>"; };
+		FCFA65A91F3D51C700C63934 /* ChatListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatListCell.h; sourceTree = "<group>"; };
+		FCFA65AA1F3D51C700C63934 /* ChatListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatListCell.m; sourceTree = "<group>"; };
+		FCFA65AD1F3D54E400C63934 /* BaseChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseChatViewController.h; sourceTree = "<group>"; };
+		FCFA65AE1F3D54E400C63934 /* BaseChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseChatViewController.m; sourceTree = "<group>"; };
+		FCFA65B11F3D557D00C63934 /* FriendInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FriendInfoViewController.h; sourceTree = "<group>"; };
+		FCFA65B21F3D557D00C63934 /* FriendInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FriendInfoViewController.m; sourceTree = "<group>"; };
+		FCFA65B31F3D557D00C63934 /* FriendInfoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FriendInfoViewController.xib; sourceTree = "<group>"; };
+		FCFA65B91F3DA9E100C63934 /* PaPaPaHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaPaPaHeader.h; sourceTree = "<group>"; };
+		FCFA65BD1F3DAC6600C63934 /* PersonalPageInfoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonalPageInfoView.h; sourceTree = "<group>"; };
+		FCFA65BE1F3DAC6600C63934 /* PersonalPageInfoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonalPageInfoView.m; sourceTree = "<group>"; };
+		FCFA65C11F3DAC6E00C63934 /* PersonalPageInfoView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PersonalPageInfoView.xib; sourceTree = "<group>"; };
+		FCFA65C31F3DBED500C63934 /* PersonalTableHeadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonalTableHeadView.h; sourceTree = "<group>"; };
+		FCFA65C41F3DBED500C63934 /* PersonalTableHeadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonalTableHeadView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -898,6 +921,7 @@
 				FC747DB51F3AB6D800A15621 /* AppDelegate.h */,
 				FC747DB61F3AB6D800A15621 /* AppDelegate.m */,
 				FCC652CF1F3C32B00042E545 /* PrefixHeader.pch */,
+				FCFA65B91F3DA9E100C63934 /* PaPaPaHeader.h */,
 				FC747DBE1F3AB6D800A15621 /* Assets.xcassets */,
 				FC747DC01F3AB6D800A15621 /* LaunchScreen.storyboard */,
 				FC747DC31F3AB6D800A15621 /* Info.plist */,
@@ -983,6 +1007,7 @@
 		FCC652DA1F3C34510042E545 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				FCFA65B01F3D557400C63934 /* FriendInfo */,
 				FCC652E11F3C347F0042E545 /* HomeViewController.h */,
 				FCC652E21F3C347F0042E545 /* HomeViewController.m */,
 			);
@@ -992,6 +1017,7 @@
 		FCC652DB1F3C34630042E545 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				FCFA65AC1F3D54E400C63934 /* BaseChat */,
 				FCC652E41F3C34940042E545 /* MessageViewController.h */,
 				FCC652E51F3C34940042E545 /* MessageViewController.m */,
 			);
@@ -1008,6 +1034,7 @@
 		FCC652DD1F3C34630042E545 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				FCFA65A81F3D51C700C63934 /* ListCell */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -1032,6 +1059,7 @@
 		FCC652E01F3C346D0042E545 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				FCFA65BC1F3DAC4800C63934 /* PersonalPage */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -1095,7 +1123,60 @@
 			path = UserModel;
 			sourceTree = "<group>";
 		};
+		FCFA65A81F3D51C700C63934 /* ListCell */ = {
+			isa = PBXGroup;
+			children = (
+				FCFA65A91F3D51C700C63934 /* ChatListCell.h */,
+				FCFA65AA1F3D51C700C63934 /* ChatListCell.m */,
+			);
+			path = ListCell;
+			sourceTree = "<group>";
+		};
+		FCFA65AC1F3D54E400C63934 /* BaseChat */ = {
+			isa = PBXGroup;
+			children = (
+				FCFA65AD1F3D54E400C63934 /* BaseChatViewController.h */,
+				FCFA65AE1F3D54E400C63934 /* BaseChatViewController.m */,
+			);
+			path = BaseChat;
+			sourceTree = "<group>";
+		};
+		FCFA65B01F3D557400C63934 /* FriendInfo */ = {
+			isa = PBXGroup;
+			children = (
+				FCFA65B11F3D557D00C63934 /* FriendInfoViewController.h */,
+				FCFA65B21F3D557D00C63934 /* FriendInfoViewController.m */,
+				FCFA65B31F3D557D00C63934 /* FriendInfoViewController.xib */,
+			);
+			path = FriendInfo;
+			sourceTree = "<group>";
+		};
+		FCFA65BC1F3DAC4800C63934 /* PersonalPage */ = {
+			isa = PBXGroup;
+			children = (
+				FCFA65BD1F3DAC6600C63934 /* PersonalPageInfoView.h */,
+				FCFA65BE1F3DAC6600C63934 /* PersonalPageInfoView.m */,
+				FCFA65C11F3DAC6E00C63934 /* PersonalPageInfoView.xib */,
+				FCFA65C31F3DBED500C63934 /* PersonalTableHeadView.h */,
+				FCFA65C41F3DBED500C63934 /* PersonalTableHeadView.m */,
+			);
+			path = PersonalPage;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		FCFA65BA1F3DA9F900C63934 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCFA65C51F3DBED500C63934 /* PersonalTableHeadView.h in Headers */,
+				FCFA65BF1F3DAC6600C63934 /* PersonalPageInfoView.h in Headers */,
+				FCFA65BB1F3DAA0400C63934 /* PaPaPaHeader.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		FC747DAE1F3AB6D800A15621 /* papapa */ = {
@@ -1108,6 +1189,7 @@
 				FC747DAD1F3AB6D800A15621 /* Resources */,
 				8AFBD03F0A4CB4DD039127B7 /* [CP] Embed Pods Frameworks */,
 				5C2B71B436346CD067BD7915 /* [CP] Copy Pods Resources */,
+				FCFA65BA1F3DA9F900C63934 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -1165,6 +1247,8 @@
 				FC24FED51F3ABF5D00CDEAE1 /* ic_selected@2x.png in Resources */,
 				FC24FED41F3ABF5D00CDEAE1 /* ic_PH_default.png in Resources */,
 				FC24FEAE1F3ABF5D00CDEAE1 /* IQKeyboardManager.bundle in Resources */,
+				FCFA65C21F3DAC6E00C63934 /* PersonalPageInfoView.xib in Resources */,
+				FCFA65B51F3D557D00C63934 /* FriendInfoViewController.xib in Resources */,
 				FC24FED61F3ABF5D00CDEAE1 /* ic_selected@3x.png in Resources */,
 				FCC652FD1F3C4BFB0042E545 /* LoginViewController.xib in Resources */,
 				FC24FED01F3ABF5D00CDEAE1 /* ic_camera@2x.png in Resources */,
@@ -1240,12 +1324,14 @@
 				FC24FEF01F3ABF5D00CDEAE1 /* AppDelegate+Notification.m in Sources */,
 				FC24FEB41F3ABF5D00CDEAE1 /* ResponseMessage.m in Sources */,
 				FC24FEBD1F3ABF5D00CDEAE1 /* UINavigationController+Category.m in Sources */,
+				FCFA65B41F3D557D00C63934 /* FriendInfoViewController.m in Sources */,
 				FC24FEDA1F3ABF5D00CDEAE1 /* PHCollectionViewCell.m in Sources */,
 				FC24FEEE1F3ABF5D00CDEAE1 /* UIImage+FixOrientation.m in Sources */,
 				FC24FEF31F3ABF5D00CDEAE1 /* HLTextView.m in Sources */,
 				FC24FEE91F3ABF5D00CDEAE1 /* UIColor+PHCate.m in Sources */,
 				FC24FEE31F3ABF5D00CDEAE1 /* PHVideoGroupViewController.m in Sources */,
 				FC24FEE51F3ABF5D00CDEAE1 /* PHScanningNavigationView.m in Sources */,
+				FCFA65C61F3DBED500C63934 /* PersonalTableHeadView.m in Sources */,
 				FCC6530D1F3C5A330042E545 /* RongCloudManager.m in Sources */,
 				FC24FEAC1F3ABF5D00CDEAE1 /* IQToolbar.m in Sources */,
 				FC24FEDF1F3ABF5D00CDEAE1 /* PHGroupViewController.m in Sources */,
@@ -1253,6 +1339,7 @@
 				FC24FEC31F3ABF5D00CDEAE1 /* KJPhotoAssetsModel.m in Sources */,
 				FC24FEBA1F3ABF5D00CDEAE1 /* UILabel+AutoSize.m in Sources */,
 				FC24FEA71F3ABF5D00CDEAE1 /* IQKeyboardReturnKeyHandler.m in Sources */,
+				FCFA65AF1F3D54E400C63934 /* BaseChatViewController.m in Sources */,
 				FC24FEC41F3ABF5D00CDEAE1 /* KJPhotoCollectionViewCell.m in Sources */,
 				FCC652E31F3C347F0042E545 /* HomeViewController.m in Sources */,
 				FC24FEF61F3ABF5D00CDEAE1 /* KJStringUtils.m in Sources */,
@@ -1277,6 +1364,7 @@
 				FCC6530C1F3C5A330042E545 /* ChatBaseModel.m in Sources */,
 				FCC6530E1F3C5A330042E545 /* RongCloundUtils.m in Sources */,
 				FC24FECB1F3ABF5D00CDEAE1 /* TestViewController.m in Sources */,
+				FCFA65C01F3DAC6600C63934 /* PersonalPageInfoView.m in Sources */,
 				FC24FEB31F3ABF5D00CDEAE1 /* RequestMessage.m in Sources */,
 				FCC652D41F3C33BF0042E545 /* BaseViewController.m in Sources */,
 				FC24FEA11F3ABF5D00CDEAE1 /* IQUIScrollView+Additions.m in Sources */,
@@ -1297,6 +1385,7 @@
 				FCC653131F3C5AAC0042E545 /* UserInfo.m in Sources */,
 				FC24FEC51F3ABF5D00CDEAE1 /* KJPhotoDataTool.m in Sources */,
 				FC24FEE71F3ABF5D00CDEAE1 /* PHTool.m in Sources */,
+				FCFA65AB1F3D51C700C63934 /* ChatListCell.m in Sources */,
 				FC24FECA1F3ABF5D00CDEAE1 /* KJPhotoKitUtil.m in Sources */,
 				FC24FEEC1F3ABF5D00CDEAE1 /* RSKImageScrollView.m in Sources */,
 				FCC652FC1F3C4BFB0042E545 /* LoginViewController.m in Sources */,
@@ -1436,6 +1525,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = W335NUPQPJ;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/papapa/libs/RongCloud",
@@ -1456,6 +1546,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = W335NUPQPJ;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/papapa/libs/RongCloud",

@@ -15,7 +15,7 @@
 #define COLOR_WHITE             @"ffffff"
 #define COLOR_MARGIN_SLIDE      @"182329"
 #define COLOR_HOMEBG            @"1F1F1F"
-#define COLOR_TEXTCOLOR         @"333333"
+#define COLOR_TEXTCOLOR         @"050505"
 #define ACCESS_TOKEN            @"accessToken"
 #define PRIMARY_KEY             @"primaryKey"
 #define DEVICE_ID               @"deviceId"   //推送标示
@@ -44,8 +44,13 @@
 
 #define RONGYUN_TOKEN           @"rongyunToken"  //连接融云所用的token
 
-#define RONGYUN_TOKEN_TEST101           @""  //ID 为101 的测试连接融云所用的token
-#define RONGYUN_TOKEN_TEST102           @""  //ID 为102 的测试连接融云所用的token
+
+#define RONGYUN_TOKEN_TEST101           @"OqE76YEeB8Yyt+8OsOIjOaPH7uE6mN0vR3MemPklbYTPwfmgUreAh899/gk2HSmoiEBIfcEeTro="  //ID 为101 的测试连接融云所用的token
+#define RONGYUN_TOKEN_TEST102           @"JupBMLKwup9uvWVN6DoHn6PH7uE6mN0vR3MemPklbYTPwfmgUreAh0KX7cR4GUeA60w+I2ns1hA="  //ID 为102 的测试连接融云所用的token
+#define RONGYUN_TOKEN_TEST103           @"NCigomihVwMfvQzzyc/1VIeQMVJzc4iD0ulmahgv/1waTVhaPXBg5uF3ZIn9WfGqxvtDoueaQTcKO+udyzQ3kQ=="  //ID 为103 的测试连接融云所用的token
+#define RONGYUN_TOKEN_TEST104           @"NPhFM6SRGoUtMsAEZw6ghFP8ek659CZly1CFpw3xXAfzUMWWoZPjZ7upBFU6qN/tkpZv5JfTcy32ggUY7HOZYA=="  //ID 为104 的测试连接融云所用的token
+
+
 #define CHATROOM_ID             @"chatRoomId"  //融云聊天室id
 
 #define FRIEND_LIST                 @"friendList"//用来区分索引   ，好友列表

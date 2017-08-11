@@ -21,7 +21,7 @@
 //#define ROOT_URL                  @"https://api.yidexuepin.com"
 //#define ROOT_URL_SHARE            @"https://h5.yidexuepin.com"
 
-#define RONGCLOUND_APPKEY           @"4z3hlwrv4bxvt"
+#define RONGCLOUND_APPKEY           @"0vnjpoad0esuz"
 
 
 #endif /* InterfaceMarco_h */

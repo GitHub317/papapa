@@ -267,6 +267,11 @@
 #pragma mark -
 #pragma mark - PRIVATE METHOD 融云
 - (void)RongYunInit {
+    //添加测试token
+    [KJCommonMethods saveValue:@"OqE76YEeB8Yyt+8OsOIjOaPH7uE6mN0vR3MemPklbYTPwfmgUreAh899/gk2HSmoiEBIfcEeTro=" key:ACCESS_TOKEN];
+    //添加假的  101（当前登陆用户的融云token）
+    [KJCommonMethods saveValue:RONGYUN_TOKEN_TEST101 key:RONGYUN_TOKEN];
+    
     //初始化融云
     [[RCIM sharedRCIM] initWithAppKey:RONGCLOUND_APPKEY];
     if ([KJCommonMethods valueForkey:ACCESS_TOKEN]) {

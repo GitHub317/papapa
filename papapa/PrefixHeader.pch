@@ -33,7 +33,7 @@
 #import "RongCloundUtils.h"
 #import "UserInfo.h"
 #import "UserModel.h"
-
+#import "PaPaPaHeader.h"
 
 
 #endif /* PrefixHeader_pch */
